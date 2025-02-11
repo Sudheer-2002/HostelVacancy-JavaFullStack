@@ -9,10 +9,8 @@ export function User_Login() {
     userpassword: "",
   });
   const [loginmsg, setLoginmsg] = useState("");
-  const [token, setToken] = useState("");
   const navigate = useNavigate();
 
-  // 🔒 Prevent unauthorized access
   useEffect(() => {
     if (localStorage.getItem("jwtToken")) {
       navigate("/user/home", { replace: true });
@@ -32,24 +30,20 @@ export function User_Login() {
         credentials
       );
 
-      // ✅ Store token in localStorage
-      setToken(response.data);
       localStorage.setItem("jwtToken", response.data);
-      setLoginmsg("Login successful");
 
-      // ✅ Block back navigation
       window.history.pushState(null, "", window.location.href);
       window.addEventListener("popstate", () => {
         window.history.pushState(null, "", window.location.href);
       });
 
+      setLoginmsg("Login Successful ❤️");
       navigate("/user/home", { replace: true });
     } catch (error) {
       setLoginmsg("Invalid username or password");
       console.error(error);
-      setToken("");
       localStorage.removeItem("jwtToken");
-      navigate("/user/login");
+      navigate("/");
     }
   };
 
