@@ -11,11 +11,11 @@ Hostel-Vacancy is a web application developed backend with Spring Boot and front
 ![Screenshot 2025-02-11 145105](https://github.com/user-attachments/assets/cca257c1-0cb4-46af-b591-5496dedbc9ab)
 ![Screenshot 2025-02-11 145916](https://github.com/user-attachments/assets/3f3b687e-94ff-4518-bbaf-f1293f28d3dc)
 
-#Owner
+# Owner
 ![Screenshot 2025-02-11 150021](https://github.com/user-attachments/assets/5e916cc9-7374-4e9e-b1dc-8eb0daf8748e)
 ![Screenshot 2025-02-11 150035](https://github.com/user-attachments/assets/0876bebe-150f-4949-bf51-68d8fc4d0951)
 
-#User
+# User
 ![Screenshot 2025-02-11 150056](https://github.com/user-attachments/assets/439a5bbb-54e6-457c-a675-59af8a049365)
 ![Screenshot 2025-02-11 150110](https://github.com/user-attachments/assets/7fc9fd92-6b44-4125-a06b-d7686a5c3646)
 ![Screenshot 2025-02-11 150147](https://github.com/user-attachments/assets/52a334ea-d0db-443b-b477-2cb42aa3da3b)
