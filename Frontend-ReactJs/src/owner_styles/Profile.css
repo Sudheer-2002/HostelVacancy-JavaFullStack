@@ -1,0 +1,141 @@
+body {
+    background-color:   rgb(244, 240, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background: #fea3a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 100; 
+}
+
+.dashboard-title {
+    color: rgb(24, 24, 24);
+    font-size: 22px;
+    font-weight: bold;
+    background: transparent; 
+    margin: 0 auto; 
+    flex-grow: 1; 
+    text-align: center;
+}
+
+nav button {
+    background-color: #ff4757;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #e84141;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.profile-card {
+    background: white;
+    padding: 30px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.profile-container h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.profile-card label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.profile-card input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.profile-buttons button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #0073e6;
+}
+
+.save-btn {
+    background-color: #2ed573;
+    color: white;
+}
+
+.save-btn:hover {
+    background-color: #21c064;
+}
+
+.cancel-btn {
+    background-color: #ff4757;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #e84141;
+}
+
+.inside-background {
+    color: rgb(52, 52, 52);
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+  }
+
+  .text{
+    color: rgb(52, 52, 52);
+    background: none;
+    text-align: center;
+  }

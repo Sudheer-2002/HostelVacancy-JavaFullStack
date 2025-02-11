@@ -1,0 +1,78 @@
+.username-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    background: none;
+}
+
+.title-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    background: none;
+}
+
+.username-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-text {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.dropdown {
+    width: 80%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.generate-btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.generate-btn:hover {
+    background: #0056b3;
+}
+
+.generated-username {
+    font-size: 18px;
+    color: black;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.inside-background {
+    color: rgb(52, 52, 52);
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+  }
+
+  .text{
+    color: rgb(52, 52, 52);
+    background: none;
+    text-align: center;
+  }

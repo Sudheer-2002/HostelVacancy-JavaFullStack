@@ -1,0 +1,82 @@
+
+* {background-color:  rgb(244, 240, 215)}
+
+
+.landing-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    height: auto; 
+    max-height: 100vh;
+  }
+  
+  .main-heading {
+    color: #4a4e69;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .content-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px;
+    background: #f2f3f5;
+    border-radius: 10px;
+  }
+
+  .aftercontent-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px;
+    background: #f2f3f5;
+    background-color:#f2f3f5;
+    border-radius: 10px;
+  }
+  
+  .image {
+    width: 40%;
+    border-radius: 10px;
+    height: 200px;
+    background-color:#f2f3f5;
+    }
+  
+  .image.left {
+    order: -1;
+    height: 200px;
+  }
+  
+  .text {
+    width: 55%;
+    font-size: 16px;
+    color: #22223b;
+    background-color:#f2f3f5;
+  }
+  
+  .center-text {
+    text-align: center;
+    margin-top: 40px;
+    color: #22223b;
+  }
+  
+  .register-button {
+    background: #3a86ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .register-button:hover {
+    background: #265dd6;
+  }
+
+  
